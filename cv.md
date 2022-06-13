@@ -37,6 +37,8 @@ Education
 * About Me
   *  I'm 33 year old. I'm married and have doughter. 
   Love to travel. Love sport. 
+  My goal is to gain knowledge in the field of front-end development. I'm 33 year old. I'm married and have doughter. 
+  Love to travel. Love sport. 
   My goal is to gain knowledge in the field of front-end development.
     
 * Languages
