@@ -2,25 +2,22 @@
     box-sizing: border-box;
   }
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
     margin: 0; 
     padding: 0;
   }
   header {
-      background-color: rgba(173, 203, 251, 0.945);
-      margin: 0 220px;
-      
+    background-color: rgba(173, 203, 251, 0.945);
+    max-width: 1000px;
+    margin: auto;
+    padding: 0.5px;
 }
 .nav-list {
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+    justify-content:space-between;
     list-style: none;
-    
   }
+
   a.nav-link {
     text-decoration: none;
     font-family: 'Roboto';
@@ -31,8 +28,8 @@ body {
     background-image: url(./assets/img/uaflag.png);
     background-size:cover ;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    /* align-items: center; */
 }
 .container {
     position: relative;
@@ -40,7 +37,7 @@ body {
     max-width: 1000px;
     min-height: 1000px;
     margin: 0px;
-    background: rgba(167, 203, 251, 0.973);
+    background: rgba(157, 200, 255, 0.973);
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35p 55px rgba(0, 0, 0, 0.1);
@@ -190,7 +187,10 @@ div.code {
 
 footer {
     background-color: rgb(23, 27, 253);
-    margin: 0 220px;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0.1px;
+    max-height: 40px;
     
 }
 .nav_down-list {
@@ -198,8 +198,8 @@ footer {
   justify-content:space-between;
   align-items: center;
   list-style: none;
-  height: 3px;
-  width: 95%;
+  height: 10px;
+  width: 99%;
   font-family: 'Roboto', sans-serif;
 }
 a.gitlink {
