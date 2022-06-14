@@ -37,7 +37,7 @@ body {
     max-width: 1000px;
     min-height: 1000px;
     margin: 0px;
-    background: rgba(167, 203, 251, 0.973);
+    background: rgba(157, 200, 255, 0.973);
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35p 55px rgba(0, 0, 0, 0.1);
