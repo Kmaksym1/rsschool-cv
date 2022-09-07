@@ -14,9 +14,8 @@ padding: 0.5px; */
 }
 .backbody{
     background-color: rgba(173, 203, 251, 0.945);
-    color: rgba(240, 248, 255, 0);
+    color: rgba(240, 248, 255, 0.946);
     height: 0.1px;
-    
 }
 .nav{
 display: flex;
